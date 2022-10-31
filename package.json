@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "mocha index.spec.js"
+  },
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "selenium-webdriver": "^4.5.0"
+  }
+}
