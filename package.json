@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "test": "mocha index.spec.js"
+    "test": "mocha index.spec.js --timeout 150000"
   },
   "dependencies": {
+    "chromedriver": "^107.0.2",
     "mocha": "^10.1.0",
     "selenium-webdriver": "^4.5.0"
   }
